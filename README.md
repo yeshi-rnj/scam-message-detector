@@ -64,21 +64,26 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 
-### 5. Configure Your Gemini API Key
-1. Copy `.env.example` to `.env`:
-   ```powershell
-   copy .env.example .env
-   ```
-2. Open `.env` in any text editor and paste your Google Gemini API key:
-   ```env
-   GEMINI_API_KEY=AIzaSy...YourActualKeyHere
-   GEMINI_MODEL=gemini-2.5-flash
-   ```
-   *(Get an API key for free at [Google AI Studio](https://aistudio.google.com/)).*
+###
+### 5. Configure the AI Integration
 
-> **Note:** If no API key is provided, the application will automatically run in **Regex-Only Fallback Mode**.
+1. Set up your environment variables using the project's example configuration file.
+2. Obtain an API key from the relevant AI provider and configure it locally.
+3. Keep all credentials private and never commit secrets to GitHub.
+
+**Note:** The application supports a fallback mode when AI integration is not configured.
 
 ---
+
+### 💻 Running the Application
+
+Start the Streamlit web server:
+
+```bash
+streamlit run app.py
+```
+
+Open the local URL displayed in your terminal to access the application.
 
 ## 🖥️ Running the Application
 
