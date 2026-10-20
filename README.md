@@ -98,6 +98,14 @@ Run the full pytest suite:
 pytest -v
 ```
 
+## 🚀 Live Demo
+
+Try the deployed application here: https://scam-message-detector-yeshi.streamlit.app
+
+## 💻 GitHub Repository
+
+https://github.com/yeshi-rnj/scam-message-detector
+
 All 16 test cases (individual rule tests, 5 scam samples, 3 genuine messages, scoring weights, score capping, and fallback behavior) should pass.
 
 ---
