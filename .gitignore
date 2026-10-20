@@ -1,0 +1,34 @@
+# Environment variables & secrets
+.env
+*.env
+!.env.example
+
+# Python virtual environment
+venv/
+venv
+env/
+env
+ENV/
+ENV
+.venv/
+.venv
+
+# Python bytecode & cache
+__pycache__/
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+
+# Pytest & test cache
+.pytest_cache/
+.pytest_cache
+.coverage
+htmlcov/
+
+# Streamlit local config
+.streamlit/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
